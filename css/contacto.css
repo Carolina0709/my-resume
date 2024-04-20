@@ -63,6 +63,7 @@
     font-size: 0.7rem;
     margin: 0;
     text-align: right;
+    width: 90%; 
 }
 .item-contacto-form input, .item-contacto-form textarea{
     background-color: transparent;
