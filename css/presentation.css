@@ -1,0 +1,145 @@
+.ctn-presentation{
+    background-color: #39065A;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-bottom: 5rem;
+    width: 100%;
+}
+
+.ctn-presentation .item-presentation{
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    position: relative;
+}
+
+.ctn-presentation h2{
+    font-family: "Marvel";
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.ctn-presentation h1{
+    font-size: 1.2rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.ctn-presentation h1 span{
+    color: #96E9C6;
+    font-size: 4rem;
+    font-family: "Kalam";
+    padding-left: 1rem;
+}
+.ctn-presentation p{
+    font-size: 1.2rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.ctn-presentation-btn{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+button{
+    align-items: center;
+    background-color: #9A0F98;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    display: flex;
+    filter: drop-shadow(0 0 15px rgba(0,0,0,0.3));
+    font-weight: 500;
+    height: 45px;
+    justify-content: center;
+    outline: none;
+    transition: transform 0.2s ease;
+    width: 45%;    
+}
+button:hover{
+    background-color: #ac05a9;
+    cursor: pointer;
+}
+button ion-icon{
+    font-size: 1.5rem;
+    padding-left: .5rem;
+}
+
+
+/* ctn-image styles */
+.ctn-image{
+    height: 100%;
+}
+
+.item-image{
+    align-items: center;
+    cursor: grab;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    position: relative;
+    width: 290px;
+}
+.item-image .ctn-box{
+    background-color: #360358;
+    height: 90px;
+    position: relative;
+    width: 90px;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.4);
+}
+
+.images{
+    background: var(--img);
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.btn-reset{
+    margin-top: 2rem;
+}
+
+@media screen and (min-width: 340px) {
+    .item-image{
+        width: 320px;
+    }
+    .item-image .ctn-box{
+        height: 100px;
+        width: 100px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .ctn-presentation{
+        flex-direction: row;
+        left: 60px;
+        position: relative;
+        width: calc(100% - 60px);
+    }
+   
+    .ctn-presentation .ctn-text{
+        width: 90%;
+    }
+    .ctn-image{
+        height: auto;
+    }
+    .btn-reset{
+        max-width: 110px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .ctn-presentation .ctn-text{
+        width: 75%;
+    }
+}

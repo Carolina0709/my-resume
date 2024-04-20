@@ -1,0 +1,149 @@
+.ctn-contacto{
+    align-items: center;
+    background-color: #39065A;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+.item-contacto{
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    justify-content: center;
+    width: 90%;
+}
+.ctn-contacto-item{
+    flex: 1;
+    height: 100%;
+}
+.ctn-contacto-img img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.ctn-contacto-form{
+    width: 100%;
+}
+.item-contacto-form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+.item-contacto-form > div{
+    width: 80%;
+}
+
+.item-contacto-form h2{
+    color: #96E9C6;
+    font-size: 1.5rem;
+    font-family: "Kalam";
+    padding-top: 2rem;
+}
+.item-contacto-form label{
+    display: block;
+    font-family: "Marvel";
+    font-size: 0.75rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+.item-contacto-form p{
+    color: #ff4f4f;
+    font-size: 0.7rem;
+    margin: 0;
+    text-align: right;
+}
+.item-contacto-form input, .item-contacto-form textarea{
+    background-color: transparent;
+    border: 1px solid #9A0F98;
+    border-radius: 15px;
+    color: #ffffff;
+    height: 40px;
+    outline:none;
+    padding: 0 1rem;
+    width: 90%; 
+}
+.item-contacto-form textarea{
+    height: 100px;
+    margin: 0;
+    padding: 1rem;
+    resize: none;
+}
+.item-contacto-form input:focus, .item-contacto-form textarea:focus{
+    border-color: #6C22A6;
+    filter: drop-shadow(0 0 10px #6C22A6);
+    font-size: 0.75rem;
+}
+/*Estilos cuando se escribe en el elemento y se da click fuera*/
+input:not(:placeholder-shown), textarea:not(:placeholder-shown){
+    background-color: #39065A;
+    font-size: 0.75rem;
+}
+input[type="email"]:valid {
+    background-color: #39065A; 
+    font-size: 0.75rem; 
+}
+/*-------------------------------------------------------------*/
+.ctn-input-center{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+.ctn-input-center a{
+    align-items: center;
+    background-color: #9A0F98;
+    border-radius: 50%;
+    color: #ffffff;
+    display: flex;
+    font-size: 1.2rem;
+    height: 40px;
+    justify-content: center;
+    width: 40px;
+}
+
+.ctn-input-center a:hover{
+    background-color: #ac05a9;
+}
+#submit-btn:disabled {
+    cursor: not-allowed; 
+    background-color: #6C22A6;
+    opacity: 0.5;
+}
+@media screen and (min-width: 768px) {
+    .ctn-contacto{
+        flex-direction: row;
+        left: 60px;
+        position: relative;
+        width: calc(100% - 60px);
+    }
+    .item-contacto{
+        width: 80%;
+    }
+   
+}
+@media screen and (min-width: 992px) {
+    .ctn-contacto{
+        height: 700px;
+    }
+    .item-contacto{
+        flex-direction: row;
+        width: 70%;
+    }
+    .ctn-contacto-img img{
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+   
+}

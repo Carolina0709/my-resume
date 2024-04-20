@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The following site shows my skills, strengths, career path and my portfolio of work.">
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Resume - Carolina Gonzalez</title>
+    <link rel="icon" href="./image/logo.png" type="image/png">
+</head>
+<body>
+    <header>
+        <nav class="ctn-nav">
+            <ul>
+                <li class="item-nav active">
+                    <a href="#ctn-conoceme">
+                        <span class="icon"><ion-icon name="home"></ion-icon></span>
+                        <span class="text">Conóceme</span>
+                    </a>
+                </li>
+                <li class="item-nav">
+                    <a href="#ctn-skills">
+                        <span class="icon"><ion-icon name="build"></ion-icon></span>
+                        <span class="text">Skills</span>
+                    </a>
+                </li>
+                <li class="item-nav">
+                    <a href="#ctn-formacion">
+                        <span class="icon"><ion-icon name="library"></ion-icon></span>
+                        <span class="text">Formación</span>
+                    </a>
+                </li>
+                <li class="item-nav">
+                    <a href="#ctn-portafolio">
+                        <span class="icon"><ion-icon name="folder-open"></ion-icon></span>
+                        <span class="text">Portafolio</span>
+                    </a>
+                </li>
+                <li class="item-nav">
+                    <a href="#ctn-contacto">
+                        <span class="icon"><ion-icon name="call"></ion-icon></span>
+                        <span class="text">Contacto</span>
+                    </a>
+                </li>
+                <div class="ctn-indicator"></div>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="ctn-presentation"  id="ctn-conoceme">
+            <div class="item-presentation">
+                <div class="ctn-text">
+                    <h2>¡ Hola mundo 👋! </h2>
+                    <h1>Aquí <span>Carolina</span></h1>
+                    <p>La mente inquieta detrás de esta pantalla. Siempre he sido una apasionada por el <em>desarrollo Front-End</em> y aquí comparto un poco de mi mundo contigo. </p>
+                    <div class="ctn-presentation-btn">
+                        <button onclick="window.open('https://github.com/Carolina0709', '_blank')"> Github <ion-icon name="logo-github"></ion-icon></button>                        
+                        <button onclick="window.open('https://www.linkedin.com/in/carolina-gonzalez-martin/', '_blank')">LinkedIn <ion-icon name="logo-linkedin"></ion-icon></button>
+                    </div>
+                </div>
+            </div>
+            <div class="item-presentation ctn-image">
+                <div class="item-image" id="item-image">
+                    <div class="ctn-box" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <div class="images" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" id="block1" style="--img:url(/my-resume/image/1.png);"></div>
+                    </div>
+                    <div class="ctn-box" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <div class="images" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" id="block2" style="--img:url(/my-resume/image/2.png);"></div>
+                    </div>
+                    <div class="ctn-box" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <div class="images" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" id="block3" style="--img:url(/my-resume/image/3.png);"></div>
+                    </div>
+                    <div class="ctn-box" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <div class="images" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" id="block4" style="--img:url(/my-resume/image/4.png);"></div>
+                    </div>
+                    <div class="ctn-box" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <div class="images" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" id="block5" style="--img:url(/my-resume/image/5.png);"></div>
+                    </div>
+                    <div class="ctn-box" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <div class="images" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" id="block6" style="--img:url(/my-resume/image/6.png);"></div>
+                    </div>
+                    <div class="ctn-box" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <div class="images" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" id="block7" style="--img:url(/my-resume/image/7.png);"></div>
+                    </div>
+                    <div class="ctn-box" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <div class="images" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" id="block8" style="--img:url(/my-resume/image/8.png);"></div>
+                    </div>
+                    <div class="ctn-box" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <div class="images" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)" id="block9" style="--img:url(/my-resume/image/9.png);"></div>
+                    </div>
+                </div>
+                <button class="btn-reset" onclick="window.location.reload();">Reset <ion-icon name="refresh"></ion-icon></button>
+            </div>
+        </section>
+
+        <section class="ctn-sobre-mi">
+            <div>
+                <p>Soy una apasionada <em>Ingeniera en Computación</em>👩‍💻 con un enfoque especial en el <em>desarrollo web</em>. Aunque mi experiencia profesional es joven <strong>¡No dejes que eso te engañe! </strong> Estoy lista para sumergirme en cada línea código, desafiar mis limites y aprender de cada reto ✨</p>
+                <img src="./image/sobreMi.jpeg" alt="Foto de Carolina Gonzalez">
+                <p>Además de mi formación técnica 🎓, soy <em>maestra de informática</em>, compartiendo conocimientos y fomentando la curiosidad tecnológica entre mis estudiantes.</p>
+                <p>Cuando no estoy frente a mi pantalla, me encontraras disfrutando de un buen café☕️ (o dos😅) explorando nuevas rutas mientras doy un paseo o sumergida en algún libro que me transporte a nuevos mundos</p>    
+                <div class="ctn-pdf">
+                    <button class="btn-pdf" onclick="window.open('./pdf/CV.pdf', '_blank')">Ver Currículo</button>
+                </div>
+            </div>
+        </section>
+        <section class="ctn-skills" id="ctn-skills">
+            <h2>Skills</h2>
+            <div class="item-skills"> 
+                <div class="ctn-skills-circle"></div>
+                <div class="ctn-skills-info">
+                    <div class="item-skills-info ctn-skills-box">
+                        <h3>HTML</h3>
+                        <p>Lenguaje estándar utilizado para crear y diseñar páginas web</p>
+                        <p>Nivel: <span>Avanzado</span></p>
+                    </div>
+                    <div class="item-skills-info ctn-skills-image">
+                        <img src="./image/thumb1.png" alt="Logo de HTML" class="img-html">
+                    </div>
+                </div>
+                <div class="ctn-skills-thumb">
+                    <li>
+                        <img src="./image/thumb1.png" alt="Logo de HTML" onclick="imgSlider('./image/thumb1.png'); changeCircleColor('#6C22A6'); changeText('HTML', 'Lenguaje estándar utilizado para crear y diseñar páginas web', 'Avanzado')">
+                    </li>
+                    <li>
+                        <img src="./image/thumb2.png" alt="Logo de CSS" onclick="imgSlider('./image/thumb2.png'); changeCircleColor('#82D2FF'); changeText('CSS', 'Lenguaje estándar utilizado para definir el aspecto visual y la presentación de páginas web', 'Avanzado')">
+                    </li>
+                    <li>
+                        <img src="./image/thumb3.png" alt="Logo de JavaScript" onclick="imgSlider('./image/thumb3.png'); changeCircleColor('#9A0F98'); changeText('JS', 'Lenguaje de programación utilizado para crear contenido dinámico e interactivo en páginas web', 'Intermedio')">
+                    </li>
+                    <li>
+                        <img src="./image/thumb4.png" alt="Logo de Java" onclick="imgSlider('./image/thumb4.png'); changeCircleColor('#F8C700'); changeText('JAVA', 'Lenguaje de programación de alto nivel y orientado a objetos con una amplia variedad de aplicaciones', 'Intermedio' )">
+                    </li>
+                    <li>
+                        <img src="./image/thumb5.png" alt="Logo de Spring" onclick="imgSlider('./image/thumb5.png'); changeCircleColor('#6C22A6'); changeText('Spring', 'Marco de desarrollo de aplicaciones para la plataforma Java', 'Intermedio')">
+                    </li>
+                    <li>
+                        <img src="./image/thumb6.png" alt="Logo de Mysql" onclick="imgSlider('./image/thumb6.png'); changeCircleColor('#82D2FF'); changeText('MySQL', 'Sistema de gestión de bases de datos relacional', 'Intermedio')">
+                    </li>
+                    <li>
+                        <img src="./image/thumb7.png" alt="Logo de React" onclick="imgSlider('./image/thumb7.png'); changeCircleColor('#9A0F98'); changeText('React', 'Biblioteca de JavaScript utilizada para construir interfaces de usuario', 'Intermedio')">
+                    </li>
+                </div>
+            </div>
+
+            <div class="ctn-soft-skills">
+                <div>
+                    <ion-icon name="heart-circle"></ion-icon>
+                    <p>Empatía</p>
+                </div>
+                <div>
+                    <ion-icon name="people"></ion-icon>
+                    <p>Compañerismo</p>
+                </div>
+                <div>
+                    <ion-icon name="chatbubbles"></ion-icon>
+                    <p>Comunicación</p>
+                </div>
+                <div>
+                    <ion-icon name="fitness"></ion-icon>
+                    <p>Resiliencia </p>
+                </div>
+                <div>
+                    <ion-icon name="receipt"></ion-icon>
+                    <p>Análisis</p>
+                </div>
+                <div>
+                    <ion-icon name="trail-sign"></ion-icon>
+                    <p>Adaptabilidad</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="ctn-formacion" id="ctn-formacion">
+            <h2>Formación Académica</h2>
+            <div class="item-formacion">
+                <div class="ctn-formacion-info">
+                    <div class="item-formacion-info">
+                        <img src="./image/udg.png" alt="Logo de Universidad de Guadalajara">
+                        <h3>Ingeniería en Computación</h3>
+                        <p>2018 - 2022</p>
+                    </div>
+                    <div class="item-formacion-info">
+                        <img src="./image/globant.png" alt="Logo de Globant y Egg Corporation ">
+                        <h3>Backend con Java</h3>
+                        <p>2023 - 2024</p>
+                    </div>
+                    <div class="item-formacion-info">
+                        <img src="./image/one.png" alt="Logo de Oracle Next Education y Alura Latam">
+                        <h3>ONE - FrontEnd</h3>
+                        <p>En curso</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ctn-portafolio" id="ctn-portafolio">
+            <h2>Portafolio</h2>
+            <div class="item-portafolio">
+                <div class="ctn-card">
+                    <div class="ctn-cover">
+                        <img class="img-cover" src="./image/cryptobot.png" alt="Robot del cryptobot">
+                    </div>
+                    <div class="ctn-details">
+                        <div>
+                            <h3>Cryptobot</h3>
+                            <p>Challenge decodificador: una herramienta para encriptar mensajes de texto de manera segura</p>
+                            <a href="https://carolina0709.github.io/Challenge-Encriptador/" target="_blank">VER MÁS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ctn-card">
+                    <div class="ctn-cover">
+                        <img class="img-cover" src="./image/autumn.png" alt="Robot del cryptobot">
+                    </div>
+                    <div class="ctn-details">
+                        <div>
+                            <h3>Cryptobot</h3>
+                            <p>Challenge decodificador: una herramienta para encriptar mensajes de texto de manera segura</p>
+                            <a href="https://github.com/Carolina0709/Autumn-Book" target="_blank">VER MÁS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section class="ctn-contacto" id="ctn-contacto">
+            <div class="item-contacto">
+                <div class="ctn-contacto-item ctn-contacto-img">
+                    <img src="./image/contacto.jpeg" alt="Telefono morado con fondo morado">
+                </div>
+                <div class="ctn-contacto-item ctn-contacto-form">
+                    <div class="item-contacto-form">
+                        <div>
+                            <h2>Contáctame</h2>
+                            
+                            <form action="" id="contact-form">
+                                <div class="ctn-input">
+                                    <label for="input-name">NOMBRE: </label>
+                                    <input type="text" name="input-name" id="input-name" data-valid="false">
+                                    <p id="name-error-msg"></p>
+                                </div>
+                                <div class="ctn-input">
+                                    <label for="input-correo">CORREO: </label>
+                                    <input type="email" name="input-correo" id="input-correo" data-valid="false">
+                                    <p id="email-error-msg"></p>
+                                </div>
+                                <div class="ctn-input">
+                                    <label for="input-asunto">ASUNTO: </label>
+                                    <input type="text" name="input-asunto" id="input-asunto" data-valid="false">
+                                    <p id="asunto-error-msg"></p>
+                                </div>
+                                <div class="ctn-input">
+                                    <label for="input-mensaje">MENSAJE: </label>
+                                    <textarea name="input-mensaje" id="input-mensaje" data-valid="false" cols="30" rows="10"></textarea>
+                                    <p id="mensaje-error-msg"></p>
+                                </div>
+                                <div class="ctn-input ctn-input-center">
+                                    <a href="https://api.whatsapp.com/send?phone=+523787115423&text=Hola%20Carolina!%20Estoy%20visitando%20tu%20sitio%20web%20y%20me%20gustar%C3%ADa%20contactar%20contigo,%20%C2%BFEstas%20disponible?" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                                    <a href="https://www.instagram.com/caro_gonzalez_martin" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                                    <a href="https://www.facebook.com/carolina.gonzalezmartin.908" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                                </div>
+                                <div class="ctn-input ctn-input-center">
+                                    <button type="submit" id="submit-btn" disabled>ENVIAR</button>
+                                </div>
+                            </form>
+                        </div>
+                         
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Links para usar iconos-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="./scripts/nav.js"></script>
+    <script src="./scripts/image.js"></script>
+    <script src="./scripts/skills.js"></script>
+    <script src="./scripts/contacto.js"></script>
+    </body>
+</html>
+

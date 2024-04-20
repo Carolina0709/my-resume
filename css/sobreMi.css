@@ -1,0 +1,47 @@
+.ctn-sobre-mi{
+    align-items: center;
+    background-color: #6C22A6;
+    color: #ffffff;
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 200;
+    min-height: 100vh;
+    justify-content: center;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 2rem 0;
+    position: relative;
+    text-align: center;
+    width: 100%;   
+    filter: drop-shadow(0 0px 25px #6C22A6);
+    z-index: 2;
+}
+.ctn-sobre-mi > div{
+    width: 90%;
+}
+
+.ctn-sobre-mi img{
+    border-radius: 50%;
+    max-width: 400px;
+    padding: 1rem 0;
+    width: 80%;
+}
+
+.ctn-pdf{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .ctn-sobre-mi{
+        left: 60px;
+        position: relative;
+        width: calc(100% - 60px);
+    }
+    .ctn-sobre-mi > div{
+        width: 70%;
+    }
+    
+}
